@@ -1,0 +1,413 @@
+/* this is the font I will use in my footers */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Lilita+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Lilita+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Rowdies:wght@300;400;700&family=UnifrakturMaguntia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Atomic+Age&family=Lilita+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rowdies:wght@300;400;700&family=UnifrakturMaguntia&display=swap');
+*{
+    box-sizing: border-box;
+}
+.middle-text{
+    margin-left: 700px;  
+}
+/* THis is a div that has the first vase and the image and the button  */
+.both-flex{
+    display: flex;
+    gap:300px
+}
+/* This is the vase image on the left of the page */
+#kevine-image{
+    height: 600px;
+    width: 500px;
+    margin-left: 100px;
+}
+/* This are the styles at the right of the page with a play button */
+.wordy{
+    width: 40%;
+    margin-top: 130px;
+    font-size: 30px;
+}
+.wordy, h1{
+    font-size: 35px;
+}
+.vasingvases{
+    margin-top: 100px;
+}
+/* this is a play button in the web page  */
+#middle-section-submit{
+    color: rgb(0, 0, 0);
+    font-size:20px;
+    border-radius: 30px;
+    height: 60px;
+    width:130px;
+    border: solid black 1px;
+    margin-top: 20px;
+}
+/* this is for header 1 in the third part in  middle web page  the vases part */
+.middle-text h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* This is the header 3 in the third part middle web page */
+.middle-text h3{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    align-items: center;
+   
+}
+/* this is the styles of the second part with a vase  on the right and words at left */
+.second-section-div{
+    margin-left: 100px;
+    gap: 100px;
+    margin-top:40px;
+}
+.second-section-div h1{
+    font-size: 48px;
+}
+.second-section-div p{
+    font-size: 18px;
+}
+
+/* This is the div that has the image and the vase with a play button after the first play button */
+.all{
+    display: flex;
+   
+}
+/* vase images */
+#kevines-image{
+    height: 600px;
+    width: 500px;
+    margin-left: 100px;
+}
+/* vase images */
+.vasingvase{
+    margin-bottom: 90px;
+    width: 70%;
+}
+
+  body{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+/* these are the bottle vases in the web page aligned horizontally */
+.bottles-shapes{
+    display: flex;
+    gap: 130px;
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.bottles{
+    width: 190px;
+    height: 150px;;
+}
+/* this is the guy in review section */
+.white-dude{
+    width: 60px;
+    height: 60px;
+}
+/* this is the name of the guy who gave a review */
+.white-name{
+    display: inline;
+    font-size: 25px;
+}
+/* This is his reviews */
+.h3-reviews{
+    margin-top: 50px;
+}
+/* the horizontal arrow */
+.arrow{
+    width: 10%;
+    height: auto;
+
+}
+.arrowing{
+    display: flex;
+    gap: 600px;
+}
+.wording{
+    margin-top: 270px;
+    font-size:25px;
+    width:50%;
+}
+/* a div that has all the reviews */
+.boths{
+    display: flex;
+    gap:200px;
+}
+/* the last part of the web page */
+.footer{
+    background-color: white;
+    padding: 70px 0;
+    color: #000000;
+    margin-top: 60px;
+   
+
+
+}
+.footer-container{
+    max-width: 1170px;  
+    margin:auto; 
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 200px;
+     
+}
+.footer-row{
+    display: flex;
+    
+}
+.footer-col h4{
+    font-size: 25px;
+    text-transform:capitalize;
+    margin-bottom: 3   0px ;
+    font-family: "Merriweather", serif;
+    font-weight: 500px;
+    position: relative;
+    margin-left: 30px;
+
+}
+.footer-col h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    box-sizing: border-box;
+    width: 50px;
+    height: 2px;
+     
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+      
+}
+.footer-col ul li a {
+    font-size: 17px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none ;
+    font-weight: 300px;
+    display: block ;
+ 
+    margin-bottom: 20px;
+    
+}
+.copyright{
+    margin-left: 400px;
+    margin-top: 200px;
+    display: inline;
+
+}
+.carracompany{
+    margin-left: 800px;
+ 
+    display: inline;
+}  
+.rectangle {
+    width: 500px;
+    height: 500px;
+    background-color: #302b2b; 
+    border-radius: 45px;
+    position: absolute;
+    top: 0;
+
+    right: 0;
+    margin-top:-140px;
+    transform: rotate(40deg);
+    z-index: -1;
+ 
+ 
+  }
+  .top-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+ 
+
+}
+.top-nav-left ul li, .top-nav-right ul li, .top-nav-middle ul li{
+    display: inline;
+
+}
+
+.top-nav-left ul li a , .top-nav-right ul li a, .top-nav-middle ul li a {
+    display: inline;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+}
+.top-nav-right{
+    color: #f0e9e9;
+    margin-right: 30px;
+
+}
+.holder{
+    display: flex;
+    gap: 700px;
+    width: 100%;
+    margin: 0;
+  
+}
+.no-image-side{
+    width: 100%;
+    margin-left: 100px;
+
+}
+.details{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+.elevate{
+    font-size: 20px;
+    margin-top: 130px;
+    text-transform: uppercase;
+}
+.home{
+    border: gray dashed 3px;
+    border-radius: 3px;
+
+ 
+}
+.start-button{
+    width: 150px;
+    height:70px;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: rgb(78, 76, 76);
+    border-radius: 35px;
+    border: none;
+    margin-bottom: 100px;
+    
+}
+.items{
+    width: 100%;
+    display: flex;
+    
+    gap: 130px;
+}
+
+
+.image-side{
+    margin-right: 80px;
+    height:500px;
+    width: 800px;
+    margin-top: 120px;
+
+}
+
+.companies{
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    gap: 180px;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+ 
+}
+.vases{
+    display: flex;
+    gap: 200px;
+    margin-left:150px;
+    width: 100%;
+
+
+}
+.news{
+    color: red;
+}
+.tous{
+    margin-top: 50px;
+    width: 80%;
+
+}
+.carra{
+    font-family: "Atomic Age", system-ui;
+    font-optical-sizing: 50px;
+
+}
+#play{
+    padding: 10px;
+    background-color: rgb(221, 214, 214);
+    color: grey;
+    margin-left: 30px;
+}
+.watch-vids{
+    display: inline;
+    font-size: 20px;
+    font-weight:bolder;
+    color: rgb(39, 38, 38);
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.ikea{
+    font-family: "Atomic Age", system-ui;
+    font-size: 40px;
+    color: grey;
+}
+
+.dipty{
+    font-family: "Merriweather", serif;
+    font-size: 40px;
+    color: grey
+
+}
+.deresio{
+    font-family: "UnifrakturMaguntia", cursive;
+    font-size: 40px;
+    color: grey;
+}
+.benuta{
+    font-family: "Atomic Age", system-ui;
+    text-transform: lowercase;
+    font-size: 40px;
+    color: grey;
+
+}
+.west{
+    font-family: "Lilita One", sans-serif;
+    font-size: 40px;
+    color: grey;
+
+}
+.best{
+    margin-left: 100px;
+    font-size: 30px;
+    
+}
+.vase1, p{
+    font-size: 21px;
+}
+.vase2, p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.vase2{
+    margin-bottom: 5px;
+ 
+}
+.vase3{
+    margin-top: 50px;
+}
+.vase3,  p{
+    font-size: 19px;
+}
+.vase4{
+    margin-top: 35px;
+}
+.vase4, p{
+    font-size: 20px;
+}
